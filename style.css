@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+main{
+    width: 85%;
+    background-color: #6c2f8c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+
+.content{
+    background-image: url('./images/back_top.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+
+.content-top{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bexigas-top{
+    display: flex;
+    margin-left: 6%;
+    height: 8%;
+    width: 74rem;
+    justify-content: center;
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    right: 68%;
+    top: 3%;
+    height: 15rem;
+    z-index: 1;
+}
+
+.logo img{
+    width: 17rem;
+}
+
+.p-top{
+    position: absolute;
+    left: 77%;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    width: 50%;
+}
+
+.menu a{
+    margin: 1rem;
+}
+
+.home:hover, .sobre:hover, .decoracoes:hover, .fale-conosco:hover{
+    background-color: orangered;
+    padding: 0.1rem;
+    transition: 0.3s;
+}
+
+.menu{
+    border-top: dotted #a078b3;
+    border-bottom: dotted #a078b3;
+    background: linear-gradient(to right, rgba(185,162,197,0),rgba(185,162,197,0.4), rgba(185,162,197,0));
+    /*
+    background: radial-gradient( circle,rgba(185, 162, 197, 1), rgba(173,131,194,1) 0%);*/
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    bottom: 28rem;
+    width: 100%;
+}
+
+.banner-img{
+    width: 90%;
+}
+
+
+.content-center{
+    margin: 10rem;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    font-family: sans-serif;
+    width: 100%;
+    margin-top: -13rem;
+}
+
+.produtos p{
+    font-size: 1.5rem;
+}
+
+
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: -8rem;
+}
+
+.cards-content{
+    background-color: #9d3bce;
+    width: 100%;
+}
+
+h3{
+    font-family: sans-serif;
+    color: white;
+    margin: 1rem 0 1rem 3.5rem;
+    
+}
+
+.cards-img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.mickey1{
+    margin-left: 2.5rem;
+}
+
+.mickey2{
+    margin-right: 2.5rem;
+}
+       
+.cards-img img{
+    width: 14rem;
+}
+
+.link-bexiga{
+    margin: 1rem 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-orange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: sans-serif;
+    background-image: url("./images/box-orange.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 6rem;
+    width: 30rem;
+    overflow: visible;
+}
+
+.box-orange span{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.box-orange p{
+    font-size: 1rem;
+}
+
+
+.bexigas-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer p{
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+.face{
+    display: flex;
+    justify-content: center;
+}
+
+.face-page{
+    text-align: center;
+    line-height: 0.7rem;
+    margin: 0.2rem 0 0 0.5rem;
+}
+
+.bexigas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bexigas img{
+    width: 93%;
+}
+
+.contato p{
+    margin: 0;
+}
